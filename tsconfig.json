@@ -11,15 +11,11 @@
 		"allowImportingTsExtensions": true,
 		"resolveJsonModule": true,
 		"isolatedModules": true,
-		"noEmit": true,
 		"jsx": "react-jsx",
 
-		/* Barrel */
-		"baseUrl": ".",
-		"paths": {
-			"$components": ["src/components"],
-			"$ui": ["src/components/ui"]
-		},
+		"emitDeclarationOnly": true,
+		"declaration": true,
+		"declarationDir": "Atypes",
 
 		/* Linting */
 		"strict": true,
